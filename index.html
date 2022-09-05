@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo list</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
     <script src="./js/script.js" defer></script>
-</head>
-<body>
-    <p></p>
+  </head>
+
+  <body>
+    <header>
+      <div class="title">
+      <h1>TODO LIST</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="Task">
+        <div class="enteringTaskField">
+          <form>
+            <input class="todoField" id="input" type="text" placeholder="Add thing you want to do ...">
+          </form>
+        </div>
+        <div class="addButton">
+          <button class="addTaskBtn" id="push">ADD</button>
+        </div>
+        <div class="todosWrapper" id="tasks"></div>
+      </div>
+    </main>
+    
+    <footer>Copyright: Anton Yatsenko, Vadym Kalmykov, 2022</footer>
 </body>
 </html>
